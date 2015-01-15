@@ -1,11 +1,11 @@
 ---
-user: brianabelson
+user: eiji
 
 # git settings
 git:
   global:
-    user_name: abelsonlive
-    user_email: brianabelson@gmail.com
+    user_name: eiji.ienaga
+    user_email: eiji.ienaga@gmail.com
 
 # Sublime Text Settings:
 
@@ -20,7 +20,7 @@ sublime_text:
 oh_my_zsh:
   dir: ".oh-my-zsh"
   theme:
-    name: abelsonlive
+    name: blinks
 
 # Homebrew settings
 homebrew:
@@ -64,7 +64,6 @@ homebrew:
     - tilemill
     - virtualbox
     - google-chrome
-    - onepassword
     - soundflower
     - transmit
     - xquartz
@@ -76,11 +75,11 @@ pip:
   - csvkit
   - virtualenvwrapper
 
-launchctl:
-  services:
-    - postgresql
-    - elasticsearch
-    - rabbitmq 
-    - redis 
+# launchctl:
+#   services:
+#     - postgresql
+#     - elasticsearch
+#     - rabbitmq 
+#     - redis 
 
 
