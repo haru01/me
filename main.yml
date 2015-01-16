@@ -17,8 +17,8 @@
       with_items: homebrew.cask.apps
       when: "'{{ item }}' not in _homebrew_cask_list.stdout"
 
-    - name: Register Alfred with homebrew_cask 
-      command: brew cask alfred link
+    # - name: Register Alfred with homebrew_cask 
+    #   command: brew cask alfred link
 
     - name: Install packages with homebrew
       homebrew: name={{item}} state=present
