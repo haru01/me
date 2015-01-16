@@ -68,6 +68,7 @@ homebrew:
     - soundflower
     - transmit
     - xquartz
+    - google-drive
 
 # python packages
 # pip:
