@@ -70,11 +70,11 @@ homebrew:
     - xquartz
 
 # python packages
-pip:
-  packages:
-  - ipython
-  - csvkit
-  - virtualenvwrapper
+# pip:
+#   packages:
+#   - ipython
+#   - csvkit
+#   - virtualenvwrapper
 
 # launchctl:
 #   services:

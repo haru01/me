@@ -28,9 +28,9 @@
       homebrew: name={{item}} state=linked
       with_items: homebrew.packages
 
-    - name: Install pip packages
-      pip: name={{item}}
-      with_items: pip.packages
+    # - name: Install pip packages
+    #   pip: name={{item}}
+    #   with_items: pip.packages
 
     - name: Install custom SublimeText Themes
       git: >
