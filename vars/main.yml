@@ -47,6 +47,8 @@ homebrew:
     - ghq
     - peco
     - pyenv-pip-rehash
+    - rbenv
+    - ruby-build
 
   cask:
     app_dir: /Applications
