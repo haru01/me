@@ -57,6 +57,13 @@
         owner={{user}}
         mode=0644
 
+    - name: cp ~/.gemrc file
+      template: >
+        src=templates/gemrc.j2
+        dest=/Users/{{user}}/.gemrc
+        owner={{user}}
+        mode=0644
+
     - name: Check if custom .zsh-theme exists
       stat: path=files/{{oh_my_zsh.theme.name}}.zsh-theme
       register: custom_theme
