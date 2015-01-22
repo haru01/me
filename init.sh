@@ -12,6 +12,8 @@ brew install gcc
 # install pip
 sudo easy_install pip
 
+sudo pip install virtualenvwrapper
+
 # install ansible 
 sudo pip install ansible 
 
