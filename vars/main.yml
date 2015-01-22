@@ -46,6 +46,7 @@ homebrew:
     - tig
     - ghq
     - peco
+    - pyenv-pip-rehash
 
   cask:
     app_dir: /Applications
