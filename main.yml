@@ -20,6 +20,10 @@
     # - name: Register Alfred with homebrew_cask 
     #   command: brew cask alfred link
 
+    - name: Tap homebrew repositories
+      homebrew_tap: tap={{ item }}
+      with_items: homebrew.taps
+
     - name: Install packages with homebrew
       homebrew: name={{item}} state=present
       with_items: homebrew.packages
@@ -63,6 +67,9 @@
     - name: Register Git email
       command: >
         git config --global user.email "{{git.global.user_email}}"
+    - name: Register ghq src
+      command: >
+        git config --global ghq.root ~/src
 
     # - name: Start services at login
     #   file: src=/usr/local/opt//homebrew.mxcl..plist path=~/Library/LaunchAgents/homebrew.mxcl..plist state=link force=yes

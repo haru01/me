@@ -24,6 +24,10 @@ oh_my_zsh:
 
 # Homebrew settings
 homebrew:
+  taps:
+    - motemen/ghq
+    - peco/peco
+
   packages:
     - poppler
     - gcc 
@@ -40,7 +44,8 @@ homebrew:
     - git
     - libevent
     - tig
-
+    - ghq
+    - peco
 
   cask:
     app_dir: /Applications
