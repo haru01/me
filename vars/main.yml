@@ -30,16 +30,16 @@ homebrew:
 
   packages:
     - poppler
-    - gcc 
+    - gcc
     - jq
-    - wget 
+    - wget
     - postgresql
     - mysql
     - sqlite
     - gdal
     - redis
-    - elasticsearch 
-    - rabbitmq 
+    - elasticsearch
+    - rabbitmq
     - ffmpeg
     - git
     - libevent
@@ -49,6 +49,7 @@ homebrew:
     - pyenv-pip-rehash
     - rbenv
     - ruby-build
+    - mono
 
   cask:
     app_dir: /Applications
@@ -89,7 +90,7 @@ homebrew:
 #   services:
 #     - postgresql
 #     - elasticsearch
-#     - rabbitmq 
-#     - redis 
+#     - rabbitmq
+#     - redis
 
 
