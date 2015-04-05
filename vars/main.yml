@@ -50,6 +50,7 @@ homebrew:
     - rbenv
     - ruby-build
     - mono
+    - go
 
   cask:
     app_dir: /Applications
